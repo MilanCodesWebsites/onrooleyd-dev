@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .confirmation-container {
+            text-align: center;
+            padding: 2rem;
+            border: 2px solid #55e6a5;
+            border-radius: 10px;
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        }
+        .confirmation-container h1 {
+            color: #55e6a5;
+            font-size: 2.5rem;
+        }
+        .confirmation-container p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .confirmation-container a {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            color: #121212;
+            background-color: #55e6a5;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .confirmation-container a:hover {
+            background-color: #44b287;
+        }
+        .icon-container {
+            margin-bottom: 1.5rem;
+        }
+        .icon-container svg {
+            width: 100px;
+            height: 100px;
+            fill: #55e6a5;
+        }
+    </style>
+</head>
+<body>
+    <div class="confirmation-container">
+        <div class="icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1.2 17.472l-5.472-5.472 1.68-1.68 3.792 3.792L18.792 6.6l1.68 1.68-9.672 9.192z" />
+            </svg>
+        </div>
+        <h1>Thank You!</h1>
+        <p>Your message has been successfully submitted. I will get back to you shortly.</p>
+        <a href="index.html">Return to Home</a>
+    </div>
+</body>
+</html>
